@@ -2,6 +2,7 @@
 @import "bootstrap";
 
 
+
 $primary: #a1d36e;
 $secondary: #6ad1dd;
 $tertiary: #fc6e51;
@@ -137,6 +138,17 @@ body {
     
 }
 
+.jumbotron {
+    border-radius: 0px;
+    background: #6ad1dd;
+    box-shadow: 0 2px 0 rgba(204,204,204,.15);
+}
+
+.index-info {
+    text-align: center;
+    font-size: 16px;
+}
+
 .btn {
   display: inline-block;
   padding: 6px 14px;
@@ -267,6 +279,32 @@ body {
     margin-top: 5px;
 }
 
+.post-2 {
+  font-family: 'Source Sans Pro', sans-serif;
+  box-shadow: 0 2px 0 rgba(204,204,204,.15);
+  margin-bottom: 20px;
+  width: relative;
+  background: white;
+  font-size: 18px;
+  display: inline-block;
+  .post-image{ 
+    display: block;
+  }
+  p {
+      font-size: (20/24) + em;
+      color: #aaaaaa;
+      margin: 0 0 5px;
+      padding: 0;
+    }
+}
+
+.btn-details-signup {
+    width: 100px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    
+   
+}
 .post {
   font-family: 'Source Sans Pro', sans-serif;
   box-shadow: 0 2px 0 rgba(204,204,204,.15);
@@ -401,6 +439,11 @@ body {
   } 
 }
 
+.col-md-6 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 .widget {
   font-family: 'Source Sans Pro', sans-serif;
   box-shadow: 0 2px 0 rgba(204,204,204,.15);
@@ -422,7 +465,7 @@ body {
       margin: 0;  
     }
     h3 {
-      font-size: (11/16) + em;
+      font-size: (18/22) + em;
       text-transform : uppercase;
       margin: 0;
       line-height: 100px;
@@ -433,7 +476,7 @@ body {
       background: $tertiary;
     }
     &.header-quaternary {
-      background: $quaternary;
+      background:  #6ad1dd;
     }
     &.header-twitter {
       background: #55acee;
@@ -569,7 +612,7 @@ body {
     }
     &:before {      
       content: '';
-      width: 20px; height: 20px;
+      width: 0px; height: 0px;
       background: #f2f2f2;
       border-radius: 50%;
       display: inline-block;
@@ -591,6 +634,25 @@ body {
   }
 }
 
+.glyphicon-ok {
+    margin-left: -20px;
+    margin-right: 10px;
+}
+
+.glyphicon-check {
+    color: white;
+    margin-right: 10px;
+}
+
+.glyphicon-thumbs-up {
+    color: white;
+    margin-left: 6px;
+}
+
+.glyphicon-pencil {
+    color: white;
+    margin-left: 15px;
+}
 .tags { 
   margin: 10px 0;
 }
