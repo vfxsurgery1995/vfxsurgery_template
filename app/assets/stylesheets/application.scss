@@ -23,6 +23,17 @@ body {
   background: #f9f9f9 no-repeat center fixed;
 }
 
+.popover {
+  
+  border-radius: 3px;
+  color: white;
+  background: #6ad1dd;
+  margin-right: 25px;
+  text-align: center;
+  border: none;
+  
+}
+
 .flexslider {
   border: none;
   box-shadow: none;
@@ -149,6 +160,13 @@ body {
     font-size: 16px;
 }
 
+.users-notice {
+  margin-left: 2500px;
+  margin-top: -20px;
+  background: none;
+  background-color: white;
+  color: darken(#b9bcbc, 15%);
+}
 .btn {
   display: inline-block;
   padding: 6px 14px;
@@ -444,6 +462,13 @@ body {
     margin-bottom: 20px;
 }
 
+.status-message {
+  font-family: 'Source Sans Pro', sans-serif;
+  background: none;
+  font-size: (14/16) + em;
+  color: #cccccc;
+}
+
 .widget {
   font-family: 'Source Sans Pro', sans-serif;
   box-shadow: 0 2px 0 rgba(204,204,204,.15);
@@ -653,6 +678,11 @@ body {
     color: white;
     margin-left: 15px;
 }
+
+.glyphicon-film {
+  color: white;
+  margin-left: 10px;
+}
 .tags { 
   margin: 10px 0;
 }
@@ -715,7 +745,7 @@ body {
   background: #FCF8E3;
   padding: 15px 0 15px 15px;
   margin-bottom: 10px;
-  font-size: (13/16) + em;
+  font-size: (16/20) + em;
   color: #888;
   border-radius: 3px;
   position: relative;
@@ -742,6 +772,7 @@ body {
   &.alert-info {
     background: $secondary;
     color: #fff;
+    font-size: 14px;
   }
 }
 
